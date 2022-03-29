@@ -23,15 +23,15 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        {/* <Route path="/" component={Homepage} exact /> */}
-        {/* <Route path="/multipage" component={Multipage} exact /> */}
+        <Route path="/" component={Homepage} exact /> */}
+        <Route path="/multipage" component={Multipage} exact />
         <Route path="/blogs" component={Bloglist} exact />
         <Route path="/bloglist" component={Bloglist2} exact />
         <Route path="/blogs/:id/:title" component={BlogDetails} />
         <Route path="/blog-details/:id/:title" component={BlogDetails2} />
 
         {/* For Multipage */}
-        <Route path="/" component={Multipage} exact />
+        <Route path="/multipage" component={Multipage} exact />
         <Route path="/about" component={About} exact />
         <Route path="/services" component={Services} exact />
         <Route path="/resume" component={Resume} exact />

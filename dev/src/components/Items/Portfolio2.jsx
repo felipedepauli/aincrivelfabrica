@@ -5,7 +5,6 @@ function Portfolio({ portfolio: { id, name, category, image, slug, server } }) {
   if ( server !== undefined || server === "" ) {
     dom = server
   }
-  console.log(server, dom)
   return (
     <a target="_black" href={`${dom}/0${id}_${slug}`}>
       <div className="portfolio-item">

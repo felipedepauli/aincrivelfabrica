@@ -63,13 +63,13 @@ function Homepage() {
           <Portfolios />
         </section>
       </Element>
-
+{/* 
       <Element name="section-pricing">
         <section className="shadow-blue white-bg padding">
           <SectionHeading title="Pricing table" />
           <PricingTable />
         </section>
-      </Element>
+      </Element> */}
 
       {/* <Element name="section-testimonials">
         <section className="shadow-blue white-bg padding">
@@ -82,12 +82,12 @@ function Homepage() {
         <Clients />
       </Element> */}
 
-      <Element name="section-blogs">
+      {/* <Element name="section-blogs">
         <section className="shadow-blue white-bg padding">
           <SectionHeading title="Recent posts" />
           <Blogs />
         </section>
-      </Element>
+      </Element> */}
 
       <Element name="section-contact">
         <section className="shadow-blue white-bg padding">

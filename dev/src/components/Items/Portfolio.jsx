@@ -1,8 +1,12 @@
 import React from "react";
 
-function Portfolio({ portfolio: { id, name, category, image, slug } }) {
+function Portfolio({ portfolio: { id, name, category, image, slug, server } }) {
+  let dom = "https://aincrivelfabrica.com.br/projects/"
+  if ( server !== undefined || server === "" ) {
+    dom = server
+  }
   return (
-    <a href={`works/${id}/${slug}`}>
+    <a target="_black" href={`${dom}/0${id}_${slug}`}>
       <div className="portfolio-item">
         <div className="details">
           <h4 className="title">{name}</h4>
