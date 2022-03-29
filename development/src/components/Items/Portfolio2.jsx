@@ -1,7 +1,7 @@
 import React from "react";
 
 function Portfolio({ portfolio: { id, name, category, image, slug, server } }) {
-  let dom = "https://aincrivelfabrica.com.br/projetos/"
+  let dom = "https://aincrivelfabrica.com.br/projects/"
   if ( server !== undefined || server === "" ) {
     dom = server
   }
