@@ -1,2 +1,0 @@
-(this.webpackJsonpbako=this.webpackJsonpbako||[]).push([[10],{135:function(a,t,i){"use strict";i.r(t),t.default=i.p+"static/media/minimal-art.b3159882.md"}}]);
-//# sourceMappingURL=10.c7e9359c.chunk.js.map
