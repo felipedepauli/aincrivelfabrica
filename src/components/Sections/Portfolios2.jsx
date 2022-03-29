@@ -56,7 +56,6 @@ const allData = [
     category: ["Backend"],
     image: "images/portfolio/5.jpg",
     slug: "repos",
-    server: "oioioi"
   }
 ];
 
